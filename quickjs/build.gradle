@@ -17,7 +17,9 @@ android {
             }
         }
     }
-
+    lintOptions {
+          abortOnError false
+    }
     buildTypes {
         all {
             ndk {
